@@ -8,9 +8,8 @@ class Loader
 		if(isset(self::$classMap[$class])){
 			return true;
 		}
-
-		$file = './'.str_replace('\\', DIRECTORY_SEPARATOR, $class).'.php';
-		$file = str_replace('/yilongpeng/', '/src/', $file);
+		$file = __DIR__.'/'.str_replace('\\', DIRECTORY_SEPARATOR, $class).'.php';
+		$file = str_replace('/Nezumi/', '/src/', $file);
 		if( file_exists($file) ){
 			include $file;
 			self::$classMap[$class] = $class;

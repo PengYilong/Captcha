@@ -2,15 +2,15 @@ A simple php captcha class
 
 ## Installation
 
-Use [composer](http://getcomposer.org) to install yilongpeng/captcha in your project:
+Use [composer](http://getcomposer.org) to install nezumi/captcha in your project:
 ```
-composer require yilongpeng/captcha
+composer require nezumi/captcha
 ```
 
 
 ## Usage
 ```php
-use yilongpeng\captcha;
+use Nezumi\captcha;
 
 $captcha = new Captcha;
 $captcha->build();
