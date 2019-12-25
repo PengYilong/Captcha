@@ -1,13 +1,14 @@
 {
-    "name": "nezumi/captcha",
-    "description": "A simple captcha",
+    "name": "nezimi/my-captcha",
+    "type": "captcha",
+    "description": "Captcha generator",
+    "homepage": "https://github.com/Gregwar/my-captcha",
     "require": {
 		"php": ">=5.4"
     },
     "authors": [
         {
             "name": "Yilong Peng",
-            "homepage": "https://github.com/YilongPeng",
             "email": "948800401@qq.com",
             "role": "Developer"
         }

@@ -1,5 +1,5 @@
 <?php
-namespace Nezumi;
+namespace Nezimi;
 
 class Captcha
 {
@@ -48,17 +48,17 @@ class Captcha
 	/**
 	 * @var array
 	 */
-	public $background = NULL;
+	public $background;
 
 	/**
 	 * @var array
 	 */
-	public $foreground = NULL;
+	public $foreground;
 
 	/**
 	 * @var string  
 	 */
-	public $line_times = NULL;
+	public $line_times;
 
 	/**
 	 * @var int  
